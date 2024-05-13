@@ -1,3 +1,11 @@
+
+
+# Live Preview
+
+
+
+
+
 # weather app using AccuWeather API
 
 Code Notes:

@@ -1,0 +1,38 @@
+label{
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+body{
+    background: #eeedec;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+.container{
+    max-width: 450px;
+    
+}
+
+/* .control{
+    height: 25px;
+} */
+
+.icon{
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+    /* background: #eeedec; */
+    /* color: #333; */
+    /* background-color: #333; */
+}
+
+/* Custom focus styles for keyboard users */
+input:focus {
+    outline: none !important; 
+  }
+  
+  
+  

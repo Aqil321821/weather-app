@@ -5,7 +5,7 @@ const apiKey = 'aNkJADqwcugS2YhLby80yTkD5mKAVU8r';
 
 const getCityCode = async (city) => {
 
-    const base = 'http://dataservice.accuweather.com/locations/v1/cities/search';
+    const base = 'https://dataservice.accuweather.com/locations/v1/cities/search';
     const query = `?apikey=${apiKey}&q=${city}`;
 
     // now make a fetch equest to this combined url
@@ -39,7 +39,7 @@ const getWeather = async (cityKey) => {
 
     // we need to send request to base address + cityCode + q parameter which is apiKey
 
-    const base = 'http://dataservice.accuweather.com/currentconditions/v1/';
+    const base = 'https://dataservice.accuweather.com/currentconditions/v1/';
 
     const query = `${cityKey}?apikey=${apiKey}`;
 

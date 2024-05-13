@@ -1,5 +1,5 @@
 
-const apiKey = 'FdLR7pAVxKdCA3c3yMSvenWGuStcfHfh';
+const apiKey = 'aNkJADqwcugS2YhLby80yTkD5mKAVU8r';
 
 //function to get city code from api
 
